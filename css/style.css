@@ -1,0 +1,138 @@
+html {
+  margin: 1rem auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: "montserrat";
+  color: #333;
+  text-align: justify;
+  hyphens: auto;
+  max-width: 800px;
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+/* ——————————————— ✣ ❴Nav|Início❵ ✣ ——————————————— */
+
+.logo-nome a {
+  text-decoration: none;
+  color: #555;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Herr Von Muellerhoff";
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-itensMenu {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-itensMenu a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+/* *** *** ✣ ❴Nav|@media❵ ✣ *** *** */
+
+@media (max-width: 500px) {
+  .nav-container {
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+  .logo-nome a {
+    margin-left: 2.5rem;
+  }
+}
+
+/* ——————————————— ✣ ❴Nav|FIM❵ ✣ ——————————————— */
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+/* ——————————————— ✣ ❴Main|Início❵ ✣ ——————————————— */
+
+.main-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+}
+
+.main-container img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.apresentacao {
+  align-items: center;
+}
+
+.apresentacao p {
+  color: #555;
+}
+
+.apresentacao a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+}
+
+.apresentacao span {
+  font-weight: 600;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* *** *** ✣ ❴Main|@media❵ ✣ *** *** */
+
+@media (max-width: 800px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+
+  .main-container {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .main-container img {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .main-container img {
+    width: 200px;
+  }
+}
+
+/* ——————————————— ✣ ❴Main|FIM❵ ✣ ——————————————— */
+
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+/* ——————————————— ✣ ❴Footer|Início❵ ✣ ——————————————— */
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+/* ——————————————— ✣ ❴Footer|Início❵ ✣ ——————————————— */
