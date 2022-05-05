@@ -1,8 +1,6 @@
 /* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
 
 /* ——————————————— ✣ ❴Main|Início❵ ✣ ——————————————— */
-.certificado-container {
-}
 
 .etiqueta-certificado {
   display: flex;
@@ -26,9 +24,6 @@
 }
 
 /* *** ✣ ❴Main-FT|Início❵ ✣ *** */
-
-.ft-certificado {
-}
 
 .ft-certificado img {
   width: 100%;
@@ -80,9 +75,6 @@
 }
 
 @media (max-width: 500px) {
-  .etiqueta-certificado p {
-  }
-
   .etiqueta-certificado img {
     width: 40px;
     margin: 0.5rem;
