@@ -9,12 +9,6 @@ html {
   max-width: 800px;
 }
 
-@media (max-width: 380px) {
-  html {
-    font-size: 14px;
-  }
-}
-
 /* *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** */
 
 /* ——————————————— ✣ ❴Nav|Início❵ ✣ ——————————————— */
@@ -55,6 +49,7 @@ html {
   }
   .logo-nome a {
     margin-left: 2.5rem;
+    font-size: 3rem;
   }
 }
 
