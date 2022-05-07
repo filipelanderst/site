@@ -109,12 +109,14 @@ html {
 @media (max-width: 340px) {
   .logo-nome .filipe {
     font-size: 1rem;
+    margin-left: 2rem;
   }
 
   .logo-nome .front-end {
     font-family: "BDScript-Regular";
     font-size: 2rem;
     margin-top: -1rem;
+    margin-left: 2rem;
   }
 }
 
