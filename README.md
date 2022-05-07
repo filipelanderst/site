@@ -1,3 +1,11 @@
 # Site Filipe Lander.
 
-![captura-de-tela-site](https://user-images.githubusercontent.com/96532223/166838116-2927aa7c-b078-465a-8564-11739f94da82.png)
+
+## Site para computador
+
+![Computador](https://raw.githubusercontent.com/flx-lander7/site/main/img/SitePC.png)
+
+
+## Site para celular
+
+![Celular](https://raw.githubusercontent.com/flx-lander7/site/main/img/SiteAndroid.png)
