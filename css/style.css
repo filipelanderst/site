@@ -14,12 +14,31 @@ html {
 /* ——————————————— ✣ ❴Nav|Início❵ ✣ ——————————————— */
 
 .logo-nome a {
+  display: grid;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  color: #555;
-  padding: 1rem;
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Herr Von Muellerhoff";
+  color: #333;
+}
+
+.logo-nome .filipe {
+  font-size: 1.5rem;
+}
+
+.logo-nome .front-end {
+  font-family: "BDScript-Regular";
+  font-size: 3rem;
+  margin-top: -1.5rem;
+}
+
+@font-face {
+  font-family: BDScript-Regular;
+  src: url(../fonts/BDScript-Regular.otf);
+}
+
+@font-face {
+  font-family: Boheme Floral;
+  src: url(../fonts/Boheme-Floral.ttf);
 }
 
 .nav-container {
@@ -42,14 +61,34 @@ html {
 
 /* *** *** ✣ ❴Nav|@media❵ ✣ *** *** */
 
-@media (max-width: 500px) {
+@media (max-width: 620px) {
+  .logo-nome .filipe {
+    font-size: 1.25rem;
+  }
+
+  .logo-nome .front-end {
+    font-family: "BDScript-Regular";
+    font-size: 2.5rem;
+    margin-top: -1.25rem;
+  }
+}
+
+@media (max-width: 560px) {
   .nav-container {
     flex-direction: column;
-    margin-right: 2rem;
+    margin-right: 2.5rem;
   }
-  .logo-nome a {
-    margin-left: 2.5rem;
-    font-size: 2.25rem;
+
+  .logo-nome .filipe {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+  }
+
+  .logo-nome .front-end {
+    font-family: "BDScript-Regular";
+    font-size: 3rem;
+    margin-top: -1.5rem;
+    margin-left: 3rem;
   }
 }
 
@@ -98,9 +137,6 @@ h2 {
 @media (max-width: 800px) {
   .main-container {
     grid-template-columns: 1fr;
-  }
-
-  .main-container {
     text-align: center;
   }
 
@@ -130,4 +166,5 @@ h2 {
   justify-content: center;
   margin-top: 2rem;
 }
+
 /* ——————————————— ✣ ❴Footer|Início❵ ✣ ——————————————— */
