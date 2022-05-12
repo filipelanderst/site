@@ -2,6 +2,11 @@
 
 /* ——————————————— ✣ ❴Main|Início❵ ✣ ——————————————— */
 
+.linha {
+  border-bottom: 1px solid #de0069;
+  margin: 2rem auto;
+}
+
 .etiqueta-certificado {
   display: flex;
   align-items: center;
